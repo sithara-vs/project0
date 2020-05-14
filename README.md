@@ -2,4 +2,4 @@
 
 Web Programming with Python and JavaScript
 cd project0
-touch index.html
+touch
