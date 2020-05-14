@@ -1,0 +1,36 @@
+
+/* Define standard variables and values for website */
+$background:powderblue;
+
+$fontsize: 18px;
+
+/* Use the variables */
+body {
+  background-color: $background;
+
+  font-size: $fontsize;
+}
+div{
+    font-size: 18px;
+    p{
+        color:brown
+    }
+    ol{
+        color:purple
+    }
+}
+%message{
+    font-family: cursive;
+    font-size: medium;
+    border : 1px solid black;
+    padding:20px;
+    margin:20px;
+}
+.breakfast {
+    @extend %message;
+    background-color: seagreen;
+}
+.lnd{
+    @extend %message;
+    background-color: rgb(111, 139, 46);
+}

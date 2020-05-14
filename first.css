@@ -1,0 +1,34 @@
+/* Define standard variables and values for website */
+/* Use the variables */
+body {
+  background-color: powderblue;
+  font-size: 18px;
+}
+
+div {
+  font-size: 18px;
+}
+div p {
+  color: brown;
+}
+div ol {
+  color: purple;
+}
+
+.lnd, .breakfast {
+  font-family: cursive;
+  font-size: medium;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.breakfast {
+  background-color: seagreen;
+}
+
+.lnd {
+  background-color: #6f8b2e;
+}
+
+/*# sourceMappingURL=first.css.map */
